@@ -387,4 +387,17 @@
             android:text="Submit" />
 
     </LinearLayout>
+
+    <TextView
+        android:id="@+id/errorMessage"
+        android:layout_width="match_parent"
+        android:layout_height="77dp"
+        android:textColor="#FF0000" />
+
+    <Button
+        android:id="@+id/dbShift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#009688"
+        android:text="To Database" />
 </LinearLayout>
